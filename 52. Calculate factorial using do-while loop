@@ -1,0 +1,16 @@
+// 52. Calculate factorial using do-while loop
+#include<stdio.h>
+
+int main(){
+    int n,x=1,i=1;
+    printf("enter a number which u to get factorial");
+    scanf("%d",&n);
+    do{
+       
+        x=x*i;
+        i++;
+        }
+  while(i<=n);
+  printf("%d",x);
+  return 0;
+}
