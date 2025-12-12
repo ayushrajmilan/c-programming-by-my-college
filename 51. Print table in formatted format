@@ -1,0 +1,15 @@
+// 51. Print table in formatted format
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("enter a number which u want for table");
+    scanf("%d",n);
+   for (int i=1;i<11;i++){
+       printf("%d X %d = %d",n,i,n*i);
+           
+       }
+       
+   
+    return 0;
+}
