@@ -1,0 +1,11 @@
+// Multiply given number by 4 using bitwise operator
+#include <stdio.h>
+
+int main() {
+    int num,result;
+    printf("enter a number which you want to multiply by 4 using bitwise operator  :");
+    scanf("%d",&num);
+    result=num<<2;
+    printf("the result is : %d",result);
+    return 0;
+}
