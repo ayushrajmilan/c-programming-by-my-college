@@ -1,0 +1,28 @@
+// 41.	Read a Coordinate Point and Determine its Quadrant
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("enter the x coordinate :");
+    scanf("%d",&x);
+    printf("enter the y coordinate :");
+    scanf("%d",&y);
+  if (x>0 && y>0){
+      printf("this is first quadrant");
+  }
+  else if (x>0 && y<0){
+      printf("this is fourth quadrant");
+  }
+  else if (x<0 && y>0){
+      printf("this is second quadrant");
+  }
+  else if (x<0 && y<0){
+      printf("this is third quadrant");
+  }
+  else if (x==0){
+      printf("line on  y axis");}
+       else if (y==0){
+      printf("line on  x axis");}
+       else if (x==0 && y==0){
+      printf("coordinates at origin");}
+    return 0;
+}
