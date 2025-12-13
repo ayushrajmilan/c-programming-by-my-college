@@ -1,0 +1,16 @@
+// 107. multiply two number using pointer 
+#include <stdio.h>
+
+int main()
+
+{
+int a,b,m;
+int *p1,*p2;
+p1=&a;p2=&b;
+printf("enter the value of a for pointer multiplication  ;");
+scanf("%d",&a);
+printf("enter the value of b for pointer multiplication  ;");
+scanf("%d",&b);
+m=(*p1)*(*p2);
+printf("the pointer multiplication is %d",m);
+return 0;}
