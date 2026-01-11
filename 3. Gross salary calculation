@@ -1,0 +1,17 @@
+//3. Gross salary calculation
+#include <stdio.h>
+
+int main() {
+   float gross,da,hra,basic;
+   printf("entee the baiscsalary \n :");
+   scanf("%f",&basic);
+   hra=basic*0.2;
+   da=basic*0.2;
+   gross=basic+hra+da;
+   printf("the hra is %f\n",hra);
+   printf("the da is %f\n",da);
+   printf("the gross salary is %f\n",gross);
+ 
+
+    return 0;
+}
