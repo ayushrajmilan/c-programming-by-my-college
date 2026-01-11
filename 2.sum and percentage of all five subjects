@@ -1,0 +1,14 @@
+//2.sum and percentage of all five subjects
+#include <stdio.h>
+
+int main() {
+   float a,b,c,d,e,f,sum,percentage;
+   printf("entee the five subjects marks \n :");
+   scanf("%f%f%f%f%f",&a,&b,&c,&d,&e);
+   sum=a+b+c+d+e;
+   percentage=sum/5;
+   printf("the sum of all 5subjects marks  %.2f\n",sum);
+   printf("the percentage of all marks %f\n",percentage);
+
+    return 0;
+}
